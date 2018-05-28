@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C961C8A520BBACF700A61F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C8A420BBACF700A61F25 /* AppDelegate.swift */; };
+		C961C8A720BBACF700A61F25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C8A620BBACF700A61F25 /* ViewController.swift */; };
+		C961C8AA20BBACF700A61F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C961C8A820BBACF700A61F25 /* Main.storyboard */; };
+		C961C8AC20BBACF800A61F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C961C8AB20BBACF800A61F25 /* Assets.xcassets */; };
+		C961C8AF20BBACF800A61F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C961C8AD20BBACF800A61F25 /* LaunchScreen.storyboard */; };
+		C961C8BA20BBACF800A61F25 /* _01__________________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C8B920BBACF800A61F25 /* _01__________________Tests.swift */; };
+		C961C8C520BBACF900A61F25 /* _01__________________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C961C8C420BBACF900A61F25 /* _01__________________UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C961C8B620BBACF800A61F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C961C89920BBACF700A61F25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C961C8A020BBACF700A61F25;
+			remoteInfo = "001-存储型属性、计算型属性、类型型属性";
+		};
+		C961C8C120BBACF900A61F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C961C89920BBACF700A61F25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C961C8A020BBACF700A61F25;
+			remoteInfo = "001-存储型属性、计算型属性、类型型属性";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C961C8A120BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-存储型属性、计算型属性、类型型属性.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C961C8A420BBACF700A61F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C961C8A620BBACF700A61F25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C961C8A920BBACF700A61F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C961C8AB20BBACF800A61F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C961C8AE20BBACF800A61F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C961C8B020BBACF800A61F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C961C8B520BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-存储型属性、计算型属性、类型型属性Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C961C8B920BBACF800A61F25 /* _01__________________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_01__________________Tests.swift"; sourceTree = "<group>"; };
+		C961C8BB20BBACF800A61F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C961C8C020BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-存储型属性、计算型属性、类型型属性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C961C8C420BBACF900A61F25 /* _01__________________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_01__________________UITests.swift"; sourceTree = "<group>"; };
+		C961C8C620BBACF900A61F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C961C89E20BBACF700A61F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961C8B220BBACF800A61F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961C8BD20BBACF900A61F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C961C89820BBACF700A61F25 = {
+			isa = PBXGroup;
+			children = (
+				C961C8A320BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性 */,
+				C961C8B820BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests */,
+				C961C8C320BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests */,
+				C961C8A220BBACF700A61F25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C961C8A220BBACF700A61F25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C961C8A120BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性.app */,
+				C961C8B520BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests.xctest */,
+				C961C8C020BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C961C8A320BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性 */ = {
+			isa = PBXGroup;
+			children = (
+				C961C8A420BBACF700A61F25 /* AppDelegate.swift */,
+				C961C8A620BBACF700A61F25 /* ViewController.swift */,
+				C961C8A820BBACF700A61F25 /* Main.storyboard */,
+				C961C8AB20BBACF800A61F25 /* Assets.xcassets */,
+				C961C8AD20BBACF800A61F25 /* LaunchScreen.storyboard */,
+				C961C8B020BBACF800A61F25 /* Info.plist */,
+			);
+			path = "001-存储型属性、计算型属性、类型型属性";
+			sourceTree = "<group>";
+		};
+		C961C8B820BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C961C8B920BBACF800A61F25 /* _01__________________Tests.swift */,
+				C961C8BB20BBACF800A61F25 /* Info.plist */,
+			);
+			path = "001-存储型属性、计算型属性、类型型属性Tests";
+			sourceTree = "<group>";
+		};
+		C961C8C320BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C961C8C420BBACF900A61F25 /* _01__________________UITests.swift */,
+				C961C8C620BBACF900A61F25 /* Info.plist */,
+			);
+			path = "001-存储型属性、计算型属性、类型型属性UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C961C8A020BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C961C8C920BBACF900A61F25 /* Build configuration list for PBXNativeTarget "001-存储型属性、计算型属性、类型型属性" */;
+			buildPhases = (
+				C961C89D20BBACF700A61F25 /* Sources */,
+				C961C89E20BBACF700A61F25 /* Frameworks */,
+				C961C89F20BBACF700A61F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-存储型属性、计算型属性、类型型属性";
+			productName = "001-存储型属性、计算型属性、类型型属性";
+			productReference = C961C8A120BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C961C8B420BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C961C8CC20BBACF900A61F25 /* Build configuration list for PBXNativeTarget "001-存储型属性、计算型属性、类型型属性Tests" */;
+			buildPhases = (
+				C961C8B120BBACF800A61F25 /* Sources */,
+				C961C8B220BBACF800A61F25 /* Frameworks */,
+				C961C8B320BBACF800A61F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C961C8B720BBACF800A61F25 /* PBXTargetDependency */,
+			);
+			name = "001-存储型属性、计算型属性、类型型属性Tests";
+			productName = "001-存储型属性、计算型属性、类型型属性Tests";
+			productReference = C961C8B520BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C961C8BF20BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C961C8CF20BBACF900A61F25 /* Build configuration list for PBXNativeTarget "001-存储型属性、计算型属性、类型型属性UITests" */;
+			buildPhases = (
+				C961C8BC20BBACF900A61F25 /* Sources */,
+				C961C8BD20BBACF900A61F25 /* Frameworks */,
+				C961C8BE20BBACF900A61F25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C961C8C220BBACF900A61F25 /* PBXTargetDependency */,
+			);
+			name = "001-存储型属性、计算型属性、类型型属性UITests";
+			productName = "001-存储型属性、计算型属性、类型型属性UITests";
+			productReference = C961C8C020BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C961C89920BBACF700A61F25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SYJ;
+				TargetAttributes = {
+					C961C8A020BBACF700A61F25 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C961C8B420BBACF800A61F25 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C961C8A020BBACF700A61F25;
+					};
+					C961C8BF20BBACF900A61F25 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = C961C8A020BBACF700A61F25;
+					};
+				};
+			};
+			buildConfigurationList = C961C89C20BBACF700A61F25 /* Build configuration list for PBXProject "001-存储型属性、计算型属性、类型型属性" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C961C89820BBACF700A61F25;
+			productRefGroup = C961C8A220BBACF700A61F25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C961C8A020BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性 */,
+				C961C8B420BBACF800A61F25 /* 001-存储型属性、计算型属性、类型型属性Tests */,
+				C961C8BF20BBACF900A61F25 /* 001-存储型属性、计算型属性、类型型属性UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C961C89F20BBACF700A61F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C961C8AF20BBACF800A61F25 /* LaunchScreen.storyboard in Resources */,
+				C961C8AC20BBACF800A61F25 /* Assets.xcassets in Resources */,
+				C961C8AA20BBACF700A61F25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961C8B320BBACF800A61F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961C8BE20BBACF900A61F25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C961C89D20BBACF700A61F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C961C8A720BBACF700A61F25 /* ViewController.swift in Sources */,
+				C961C8A520BBACF700A61F25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961C8B120BBACF800A61F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C961C8BA20BBACF800A61F25 /* _01__________________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C961C8BC20BBACF900A61F25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C961C8C520BBACF900A61F25 /* _01__________________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C961C8B720BBACF800A61F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C961C8A020BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性 */;
+			targetProxy = C961C8B620BBACF800A61F25 /* PBXContainerItemProxy */;
+		};
+		C961C8C220BBACF900A61F25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C961C8A020BBACF700A61F25 /* 001-存储型属性、计算型属性、类型型属性 */;
+			targetProxy = C961C8C120BBACF900A61F25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C961C8A820BBACF700A61F25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C961C8A920BBACF700A61F25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C961C8AD20BBACF800A61F25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C961C8AE20BBACF800A61F25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C961C8C720BBACF900A61F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C961C8C820BBACF900A61F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C961C8CA20BBACF900A61F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "001-存储型属性、计算型属性、类型型属性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syj.-01------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C961C8CB20BBACF900A61F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "001-存储型属性、计算型属性、类型型属性/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syj.-01------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C961C8CD20BBACF900A61F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "001-存储型属性、计算型属性、类型型属性Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syj.-01------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-存储型属性、计算型属性、类型型属性.app/001-存储型属性、计算型属性、类型型属性";
+			};
+			name = Debug;
+		};
+		C961C8CE20BBACF900A61F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "001-存储型属性、计算型属性、类型型属性Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syj.-01------------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-存储型属性、计算型属性、类型型属性.app/001-存储型属性、计算型属性、类型型属性";
+			};
+			name = Release;
+		};
+		C961C8D020BBACF900A61F25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "001-存储型属性、计算型属性、类型型属性UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syj.-01------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001-存储型属性、计算型属性、类型型属性";
+			};
+			name = Debug;
+		};
+		C961C8D120BBACF900A61F25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "001-存储型属性、计算型属性、类型型属性UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.syj.-01------------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001-存储型属性、计算型属性、类型型属性";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C961C89C20BBACF700A61F25 /* Build configuration list for PBXProject "001-存储型属性、计算型属性、类型型属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C961C8C720BBACF900A61F25 /* Debug */,
+				C961C8C820BBACF900A61F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C961C8C920BBACF900A61F25 /* Build configuration list for PBXNativeTarget "001-存储型属性、计算型属性、类型型属性" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C961C8CA20BBACF900A61F25 /* Debug */,
+				C961C8CB20BBACF900A61F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C961C8CC20BBACF900A61F25 /* Build configuration list for PBXNativeTarget "001-存储型属性、计算型属性、类型型属性Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C961C8CD20BBACF900A61F25 /* Debug */,
+				C961C8CE20BBACF900A61F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C961C8CF20BBACF900A61F25 /* Build configuration list for PBXNativeTarget "001-存储型属性、计算型属性、类型型属性UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C961C8D020BBACF900A61F25 /* Debug */,
+				C961C8D120BBACF900A61F25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C961C89920BBACF700A61F25 /* Project object */;
+}
