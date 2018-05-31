@@ -42,7 +42,7 @@ class SYJRadioButton: UIButton {
      Color of the radio button stroke circle. Default value is UIColor red
      */
     
-    //只是圆圈的颜色  
+    //只是圆圈的颜色
     @IBInspectable var strokeColor: UIColor = UIColor.gray {
         
         didSet{
@@ -95,7 +95,7 @@ class SYJRadioButton: UIButton {
         fillCircleLayer.fillColor = UIColor.clear.cgColor
         fillCircleLayer.strokeColor = UIColor.clear.cgColor
         layer.addSublayer(fillCircleLayer)
-        //在系统button的基础上，重写自定义的单选按钮button
+        //在系统button的基础上，重写自定义的单选按钮button。  数学要好
         self.titleEdgeInsets = UIEdgeInsetsMake(0, 4*circleRadius + 4*circleRadius + 4 * circleLayer.lineWidth, 0, 0    )
         
         self.toggleButton()
