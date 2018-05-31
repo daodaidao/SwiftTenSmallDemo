@@ -94,7 +94,7 @@ class SYJRadioButton: UIButton {
         fillCircleLayer.fillColor = UIColor.clear.cgColor
         fillCircleLayer.strokeColor = UIColor.clear.cgColor
         layer.addSublayer(fillCircleLayer)
-        
+        //在系统button的基础上，重写自定义的单选按钮button
         self.titleEdgeInsets = UIEdgeInsetsMake(0, 4*circleRadius + 4*circleRadius + 4 * circleLayer.lineWidth, 0, 0    )
         
         self.toggleButton()

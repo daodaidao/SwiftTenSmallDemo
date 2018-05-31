@@ -81,7 +81,6 @@ class SYJRadioButtonsController: NSObject {
         
         aButton.addTarget(self, action: #selector(SYJRadioButtonsController.pressed(_:)), for: .touchUpInside)
         
-        
     }
     
     func removeButton(_ aButton: UIButton) {
@@ -105,3 +104,19 @@ class SYJRadioButtonsController: NSObject {
     }
     
 }
+
+//多说几句：
+//imageView.image.layer.cornerRadius = 5;
+//imageView.image.layer.masksToBounds = YES;
+//这样设置会触发离屏渲染，比较消耗性能。比如当一个页面上有十几头像这样设置了圆角
+//会明显感觉到卡顿。
+//这种就是最常用的，也是最耗性能的
+//第三种 :通过Core Graphics重新绘制带圆角的视图
+//这种方式性能最好
+//https://www.cnblogs.com/junhuawang/p/5652220.html
+
+
+
+
+
+
