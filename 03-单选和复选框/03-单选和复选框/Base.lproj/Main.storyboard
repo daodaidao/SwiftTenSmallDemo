@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_3_单选和复选框" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHs-M7-mCc" customClass="SYJRadioButton" customModule="_3_单选和复选框" customModuleProvider="target">
+                                <rect key="frame" x="97.5" y="318.5" width="180" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CmB-kZ-45J"/>
+                                    <constraint firstAttribute="width" constant="180" id="Dfa-bu-g7A"/>
+                                </constraints>
+                                <state key="normal" title="Button 1000000"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="circleRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="circleColor">
+                                        <color key="value" red="0.45421814919999998" green="0.83110696080000002" blue="0.4303709865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZc-2H-ThR">
+                                <rect key="frame" x="97.5" y="368.5" width="180" height="30"/>
+                                <state key="normal" title="button3"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyt-iC-mnw" customClass="SYJRadioButton" customModule="_3_单选和复选框" customModuleProvider="target">
+                                <rect key="frame" x="98" y="268" width="180" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="button 2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cyt-iC-mnw" firstAttribute="height" secondItem="FHs-M7-mCc" secondAttribute="height" id="3Kq-U4-Or7"/>
+                            <constraint firstItem="cyt-iC-mnw" firstAttribute="width" secondItem="FHs-M7-mCc" secondAttribute="width" id="4oN-Mh-JM9"/>
+                            <constraint firstItem="yZc-2H-ThR" firstAttribute="top" secondItem="FHs-M7-mCc" secondAttribute="bottom" constant="20" id="BbY-u2-Y1f"/>
+                            <constraint firstItem="yZc-2H-ThR" firstAttribute="height" secondItem="FHs-M7-mCc" secondAttribute="height" id="Jtd-pX-cfb"/>
+                            <constraint firstItem="cyt-iC-mnw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VyH-3o-dwF"/>
+                            <constraint firstItem="FHs-M7-mCc" firstAttribute="top" secondItem="cyt-iC-mnw" secondAttribute="bottom" constant="20.5" id="aVh-eD-Exv"/>
+                            <constraint firstItem="yZc-2H-ThR" firstAttribute="trailing" secondItem="FHs-M7-mCc" secondAttribute="trailing" id="fhX-iR-sWy"/>
+                            <constraint firstItem="FHs-M7-mCc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jKw-cg-4Vm"/>
+                            <constraint firstItem="FHs-M7-mCc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uFb-K7-6U1"/>
+                            <constraint firstItem="yZc-2H-ThR" firstAttribute="leading" secondItem="FHs-M7-mCc" secondAttribute="leading" id="vvn-dv-dDq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="button1" destination="FHs-M7-mCc" id="sUv-wD-02W"/>
+                        <outlet property="button2" destination="cyt-iC-mnw" id="gLu-RU-deJ"/>
+                        <outlet property="button3" destination="yZc-2H-ThR" id="BC7-Of-TDE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
