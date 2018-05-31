@@ -27,7 +27,7 @@ class SYJRadioButton: UIButton {
     /*
      Color of the radio button circle . Default value is UIColor red.
      */
-    
+    //带点的颜色circleColor
     @IBInspectable var circleColor: UIColor = UIColor.red {
         //        在Swift语言中用了willSet和didSet这两个特性来监视属性的除初始化之外的属性值变化
         didSet {
@@ -42,6 +42,7 @@ class SYJRadioButton: UIButton {
      Color of the radio button stroke circle. Default value is UIColor red
      */
     
+    //只是圆圈的颜色  
     @IBInspectable var strokeColor: UIColor = UIColor.gray {
         
         didSet{
