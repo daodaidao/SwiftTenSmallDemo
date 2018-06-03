@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D243EB020C38ACB0048A37F /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D243EAF20C38ACB0048A37F /* Room.swift */; };
+		1D243EB220C38BB30048A37F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D243EB120C38BB30048A37F /* Person.swift */; };
 		C9286EE120C15BC4007D5C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9286EE020C15BC4007D5C16 /* AppDelegate.swift */; };
 		C9286EE320C15BC4007D5C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9286EE220C15BC4007D5C16 /* ViewController.swift */; };
 		C9286EE620C15BC4007D5C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9286EE420C15BC4007D5C16 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D243EAF20C38ACB0048A37F /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		1D243EB120C38BB30048A37F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C9286EDD20C15BC4007D5C16 /* 04-可选类型与构造函数.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-可选类型与构造函数.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9286EE020C15BC4007D5C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9286EE220C15BC4007D5C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				C9286EE020C15BC4007D5C16 /* AppDelegate.swift */,
 				C9286EE220C15BC4007D5C16 /* ViewController.swift */,
+				1D243EAF20C38ACB0048A37F /* Room.swift */,
+				1D243EB120C38BB30048A37F /* Person.swift */,
 				C9286EE420C15BC4007D5C16 /* Main.storyboard */,
 				C9286EE720C15BC7007D5C16 /* Assets.xcassets */,
 				C9286EE920C15BC7007D5C16 /* LaunchScreen.storyboard */,
@@ -258,6 +264,8 @@
 			files = (
 				C9286EE320C15BC4007D5C16 /* ViewController.swift in Sources */,
 				C9286EE120C15BC4007D5C16 /* AppDelegate.swift in Sources */,
+				1D243EB220C38BB30048A37F /* Person.swift in Sources */,
+				1D243EB020C38ACB0048A37F /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
